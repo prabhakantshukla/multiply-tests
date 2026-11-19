@@ -19,7 +19,7 @@ def multiply(a, b):
     if isinstance(a, bool) or isinstance(b, bool):
         raise TypeError("Both arguments must be integers, not booleans")
     
-    return a + b
+    return a * b
 
 
 def test_multiply():
